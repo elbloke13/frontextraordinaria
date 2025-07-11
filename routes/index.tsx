@@ -4,7 +4,7 @@ import CharacterCard from "../components/CharacterCard.tsx";
 import { getCharacters, getCharactersname } from "../utils/function.ts";
 
 
-
+//No esta hecha la paginacion pero lo que haria seria usar una isla y con los botones un onclick que recogiera el numero de pagina y mostrase los personajes de ese numero
 
 
 export const handler:Handlers ={
@@ -48,7 +48,7 @@ export default function Home(props: PageProps<Character[]>){
     </div>
     <div class="pagination">
     <button type="submit" class="button">Anterior</button>
-    <span>"1""/""42"</span>
+    <span>1/42</span>
     <button type= "submit" class="button">Siguiente</button>
     </div>
     </div>
